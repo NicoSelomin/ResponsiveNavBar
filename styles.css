@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/*Header style*/
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/landscape.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a{
+    color: #ed3c57;
+    font-weight: 600;
+}
